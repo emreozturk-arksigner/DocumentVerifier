@@ -1,11 +1,14 @@
 {
-  "documents": {
-    "passport": {
+  "documents": [
+    {
+      "documentTitle": "Pasaport",
       "documentType": "Passport",
-      "documentSide": {
-        "side": "front",
-        "title": "Pasaport"
-      },
+      "documentSide": [
+        {
+          "side": "front",
+          "title": "Pasaport"
+        }
+      ],
       "list": [
         {
           "icaoCode": "TUR",
@@ -49,7 +52,8 @@
         }
       ]
     },
-    "idCard": {
+    {
+      "documentTitle": "Kimlik Kartı",
       "documentType": "ID_Card",
       "documentSide": [
         {
@@ -72,7 +76,8 @@
         }
       ]
     },
-    "drivingLicence": {
+    {
+      "documentTitle": "Ehliyet",
       "documentType": "Driving_License",
       "documentSide": [
         {
@@ -96,14 +101,11 @@
         {
           "icaoCode": "TUR",
           "country": "Türkiye"
-        },
-        {
-          "icaoCode": "AZE",
-          "country": "Azerbaycan"
         }
       ]
     },
-    "tcnc": {
+    {
+      "documentTitle": "Nüfus Cüzdanı",
       "documentType": "ID_Card",
       "documentSide": [
         {
@@ -122,23 +124,53 @@
         }
       ]
     },
-    "otherDocuments": [
-      {
-        "icaoCode": "INT",
-        "documentType": "International Organisations"
-      },
-      {
-        "icaoCode": "FAN",
-        "documentType": "Fantasy Document"
-      },
-      {
-        "icaoCode": "WSA",
-        "documentType": "World Service Authority (a private organisation)"
-      },
-      {
-        "icaoCode": "OTH",
-        "documentType": "Other"
-      }
-    ]
-  }
+    {
+      "documentTitle": "Oturma/İkamet İzni",
+      "documentType": "Residence_Permit",
+      "documentSide": [
+        {
+          "side": "front",
+          "title": "Oturma/İkamet İzni Ön Yüz"
+        }
+      ],
+      "list": [
+        {
+          "icaoCode": "TUR",
+          "country": "Türkiye"
+        }
+      ]
+    },
+    {
+      "documentTitle": "Diğer Belgeler",
+      "documentType": "Other_Document",
+      "documentSide": [
+        {
+          "side": "front",
+          "title": "Ön Yüz"
+        },
+        {
+          "side": "back",
+          "title": "Arka Yüz"
+        }
+      ],
+      "list": [
+        {
+          "icaoCode": "INT",
+          "documentType": "International Organisations"
+        },
+        {
+          "icaoCode": "FAN",
+          "documentType": "Fantasy Document"
+        },
+        {
+          "icaoCode": "WSA",
+          "documentType": "World Service Authority (a private organisation)"
+        },
+        {
+          "icaoCode": "OTH",
+          "documentType": "Other"
+        }
+      ]
+    }
+  ]
 }
