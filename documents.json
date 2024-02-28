@@ -1,6 +1,7 @@
 {
   "documents": {
     "passport": {
+      "documentType": "Passport",
       "documentSide": {
         "side": "front",
         "title": "Pasaport"
@@ -49,6 +50,7 @@
       ]
     },
     "idCard": {
+      "documentType": "ID Card",
       "documentSide": [
         {
           "side": "front",
@@ -71,6 +73,7 @@
       ]
     },
     "drivingLicence": {
+      "documentType": "Ehliyet",
       "documentSide": [
         {
           "side": "front",
@@ -82,7 +85,7 @@
         },
         {
           "side": "front",
-          "title": "Eski Ehliyet Ön Yüz"
+          "title": "Eski Ehliyet Arka Yüz"
         },
         {
           "side": "back",
@@ -101,6 +104,7 @@
       ]
     },
     "tcnc": {
+      "documentType": "Kimlik Belgesi",
       "documentSide": [
         {
           "side": "front",
