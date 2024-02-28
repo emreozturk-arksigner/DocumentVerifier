@@ -1,6 +1,7 @@
 {
   "documents": [
     {
+      "isReady": true,
       "documentTitle": "Pasaport",
       "documentType": "Passport",
       "documentSide": [
@@ -43,16 +44,13 @@
           "country": "Sudan"
         },
         {
-          "icaoCode": "RUS_1",
-          "country": "Rusya"
-        },
-        {
-          "icaoCode": "RUS_2",
+          "icaoCode": "RUS",
           "country": "Rusya"
         }
       ]
     },
     {
+      "isReady": true,
       "documentTitle": "Kimlik Kartı",
       "documentType": "ID_Card",
       "documentSide": [
@@ -77,6 +75,7 @@
       ]
     },
     {
+      "isReady": true,
       "documentTitle": "Ehliyet",
       "documentType": "Driving_License",
       "documentSide": [
@@ -105,6 +104,7 @@
       ]
     },
     {
+      "isReady": true,
       "documentTitle": "Nüfus Cüzdanı",
       "documentType": "ID_Card",
       "documentSide": [
@@ -125,6 +125,7 @@
       ]
     },
     {
+      "isReady": false,
       "documentTitle": "Oturma/İkamet İzni",
       "documentType": "Residence_Permit",
       "documentSide": [
@@ -141,6 +142,7 @@
       ]
     },
     {
+      "isReady": false,
       "documentTitle": "Diğer Belgeler",
       "documentType": "Other_Document",
       "documentSide": [
