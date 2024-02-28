@@ -1,0 +1,88 @@
+{
+  "documents": {
+    "passport": [
+      {
+        "icaoCode": "TUR",
+        "country": "Türkiye"
+      },
+      {
+        "icaoCode": "AZE",
+        "country": "Azerbaycan"
+      },
+      {
+        "icaoCode": "IRQ",
+        "country": "Irak"
+      },
+      {
+        "icaoCode": "JOR",
+        "country": "Ürdün"
+      },
+      {
+        "icaoCode": "PAK",
+        "country": "Pakistan"
+      },
+      {
+        "icaoCode": "LBY",
+        "country": "Libya"
+      },
+      {
+        "icaoCode": "KGZ",
+        "country": "Kırgızistan"
+      },
+      {
+        "icaoCode": "SDN",
+        "country": "Sudan"
+      },
+      {
+        "icaoCode": "RUS_1",
+        "country": "Rusya"
+      },
+      {
+        "icaoCode": "RUS_2",
+        "country": "Rusya"
+      }
+    ],
+    "idCard": [
+      {
+        "icaoCode": "TUR",
+        "country": "Türkiye"
+      },
+      {
+        "icaoCode": "AZE",
+        "country": "Azerbaycan"
+      }
+    ],
+    "drivingLicence": [
+      {
+        "icaoCode": "TUR",
+        "country": "Türkiye"
+      },
+      {
+        "icaoCode": "AZE",
+        "country": "Azerbaycan"
+      }
+    ],
+    "tcnc": {
+      "icaoCode": "TUR",
+      "country": "Türkiye"
+    },
+    "otherDocuments": [
+      {
+        "icaoCode": "INT",
+        "documentType": "International Organisations"
+      },
+      {
+        "icaoCode": "FAN",
+        "documentType": "Fantasy Document"
+      },
+      {
+        "icaoCode": "WSA",
+        "documentType": "World Service Authority (a private organisation)"
+      },
+      {
+        "icaoCode": "OTH",
+        "documentType": "Other"
+      }
+    ]
+  }
+}
