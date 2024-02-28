@@ -1,70 +1,122 @@
 {
   "documents": {
-    "passport": [
-      {
-        "icaoCode": "TUR",
-        "country": "Türkiye"
+    "passport": {
+      "documentSide": {
+        "side": "front",
+        "title": "Pasaport"
       },
-      {
-        "icaoCode": "AZE",
-        "country": "Azerbaycan"
-      },
-      {
-        "icaoCode": "IRQ",
-        "country": "Irak"
-      },
-      {
-        "icaoCode": "JOR",
-        "country": "Ürdün"
-      },
-      {
-        "icaoCode": "PAK",
-        "country": "Pakistan"
-      },
-      {
-        "icaoCode": "LBY",
-        "country": "Libya"
-      },
-      {
-        "icaoCode": "KGZ",
-        "country": "Kırgızistan"
-      },
-      {
-        "icaoCode": "SDN",
-        "country": "Sudan"
-      },
-      {
-        "icaoCode": "RUS_1",
-        "country": "Rusya"
-      },
-      {
-        "icaoCode": "RUS_2",
-        "country": "Rusya"
-      }
-    ],
-    "idCard": [
-      {
-        "icaoCode": "TUR",
-        "country": "Türkiye"
-      },
-      {
-        "icaoCode": "AZE",
-        "country": "Azerbaycan"
-      }
-    ],
-    "drivingLicence": [
-      {
-        "icaoCode": "TUR",
-        "country": "Türkiye"
-      },
-      {
-        "icaoCode": "AZE",
-        "country": "Azerbaycan"
-      }
-    ],
+      "list": [
+        {
+          "icaoCode": "TUR",
+          "country": "Türkiye"
+        },
+        {
+          "icaoCode": "AZE",
+          "country": "Azerbaycan"
+        },
+        {
+          "icaoCode": "IRQ",
+          "country": "Irak"
+        },
+        {
+          "icaoCode": "JOR",
+          "country": "Ürdün"
+        },
+        {
+          "icaoCode": "PAK",
+          "country": "Pakistan"
+        },
+        {
+          "icaoCode": "LBY",
+          "country": "Libya"
+        },
+        {
+          "icaoCode": "KGZ",
+          "country": "Kırgızistan"
+        },
+        {
+          "icaoCode": "SDN",
+          "country": "Sudan"
+        },
+        {
+          "icaoCode": "RUS_1",
+          "country": "Rusya"
+        },
+        {
+          "icaoCode": "RUS_2",
+          "country": "Rusya"
+        }
+      ]
+    },
+    "idCard": {
+      "documentSide": [
+        {
+          "side": "front",
+          "title": "Kimlik Kartı Ön Yüz"
+        },
+        {
+          "side": "back",
+          "title": "Kimlik Kartı Arka Yüz"
+        }
+      ],
+      "list": [
+        {
+          "icaoCode": "TUR",
+          "country": "Türkiye"
+        },
+        {
+          "icaoCode": "AZE",
+          "country": "Azerbaycan"
+        }
+      ]
+    },
+    "drivingLicence": {
+      "documentSide": [
+        {
+          "side": "front",
+          "title": "Yeni Ehliyet Ön Yüz"
+        },
+        {
+          "side": "back",
+          "title": "Yeni Ehliyet Arka Yüz"
+        },
+        {
+          "side": "front",
+          "title": "Eski Ehliyet Arka Yüz"
+        },
+        {
+          "side": "back",
+          "title": "Eski Ehliyet Arka Yüz"
+        }
+      ],
+      "list": [
+        {
+          "icaoCode": "TUR",
+          "country": "Türkiye"
+        },
+        {
+          "icaoCode": "AZE",
+          "country": "Azerbaycan"
+        }
+      ]
+    },
     "tcnc": {
-      "icaoCode": "TUR",
-      "country": "Türkiye"
+      "documentSide": [
+        {
+          "side": "front",
+          "title": "Nüfus Cüzdanı Ön Yüz"
+        },
+        {
+          "side": "back",
+          "title": "Nüfus Cüzdanı Arka Yüz"
+        }
+      ],
+      "list": [
+        {
+          "icaoCode": "TUR",
+          "country": "Türkiye"
+        }
+      ]
     },
     "otherDocuments": [
       {
