@@ -50,7 +50,7 @@
       ]
     },
     "idCard": {
-      "documentType": "ID Card",
+      "documentType": "ID_Card",
       "documentSide": [
         {
           "side": "front",
@@ -73,7 +73,7 @@
       ]
     },
     "drivingLicence": {
-      "documentType": "Ehliyet",
+      "documentType": "Driving_License",
       "documentSide": [
         {
           "side": "front",
@@ -104,7 +104,7 @@
       ]
     },
     "tcnc": {
-      "documentType": "Kimlik Belgesi",
+      "documentType": "ID_Card",
       "documentSide": [
         {
           "side": "front",
