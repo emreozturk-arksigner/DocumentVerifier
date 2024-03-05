@@ -83,22 +83,18 @@
       "documentType": "Driving_License",
       "documentSide": [
         {
-          "id": 0,
           "side": "front",
           "title": "Yeni Ehliyet Ön Yüz"
         },
         {
-          "id": 0,
           "side": "back",
           "title": "Yeni Ehliyet Arka Yüz"
         },
         {
-          "id": 1,
           "side": "front",
           "title": "Eski Ehliyet Ön Yüz"
         },
         {
-          "id": 1,
           "side": "back",
           "title": "Eski Ehliyet Arka Yüz"
         }
